@@ -71,7 +71,6 @@ class DocumentsController < ApplicationController
     end
   end
 
-  privateFPVyHf55
     # Use callbacks to share common setup or constraints between actions.
     def set_document
       @document = Document.find(params[:id])
