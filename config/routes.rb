@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :documents
   
-
+  root :to => "home#index"
   #C'est le test
 
   # The priority is based upon order of creation: first created -> highest priority.
